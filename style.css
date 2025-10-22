@@ -1,0 +1,141 @@
+/* & This will style the font for the entire webpage */
+* {
+    font-family: "Poiret One";
+    letter-spacing: .1em;
+}
+
+/* & This will style the baclground for the entire webpage */
+body {
+    /* ~ Colors inspiried by my VS Code Theme */
+    background-color: #393a60;
+    color: #f5edef;
+    /* ~ This will remove the default browser spacing */
+    padding: 0;
+    margin: 0;
+}
+
+/* & This will style the heading section of the webpage */
+/* ~ This will style the header images */
+.img-heading {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+/* ~ This will create a flex-container */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ~ This will style the <h1> element */
+h1 {
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+/* ~ This will style the <hr> element -> the horizontal line or dividing line which will seperate the sectionsd on the webpage */
+.section-divider {
+    width: 90%;
+    height: 10px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
+}
+
+/* & This will style the main section of the webpage */
+/* ~ This will style the <h2> element */
+h2 {
+    text-align: center;
+}
+
+/* ~ This will style the <hr> element that will follow after each section title */
+.title-divider {
+    width: 45%;
+    height: 10px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
+}
+
+/* ~ This will style the marker for the <li> element */
+li::marker {
+    font-size: 1.4em;
+    color: #ff42f4;
+}
+
+/* ~ This will style the image of the padding box */
+.img-the-padding-box {
+    width: 400px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+    margin: 8px;
+}
+
+/* ~ This will style the image of the different types of syntax for the padding box */
+.padding-syntax {
+    width: 250px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+    margin: 8px;
+}
+
+/* & This will style the elements in the "index.html */
+/* ~ This will style the #outside-wrapper */
+#outside-wrapper {
+    width: 90%;
+    /* background: #b595d6; */
+    /* background: #6c0d7299; */
+    /* background: #ade0b999; */
+    background: #d5ffc099;
+    background: #540a4b99;
+    text-align: center;
+    margin-left: 50px;
+}
+
+/* ~ This will style the #top-img */
+#top-img {
+    width: 10em;
+    height: 10em;
+    border: 12px solid #d5ffc0;
+    /* border-radius: 50%; */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* ~ This will remove the <li> element marker from the <div> elements in eacj <li> element */
+#post-list > li {
+    list-style-type: none;
+}
+
+/* ~ This will align the text of the <div> elements in the <li> elements */
+li > div {
+    /* text-align: left; */
+    text-align: center;
+}
+
+/* ~ This will style the .post-wrapper */
+.post-wrapper {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+/* ~ Thhis will style the .post-img */
+.post-img {
+    width: 95%;
+    border-radius: 50%;
+    border: 8px solid #d5ffc0;
+    padding: 10px;
+}
+
+/* ~ This will style the <div> elements */
+div {
+    width: 90%;
+    border: 5px solid #fffaf0;
+}
+
+/* & This will style the footer section of the webpage */
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
